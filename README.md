@@ -9,6 +9,6 @@
 <li><strong>    2. Boosting</strong></li>
 <li><strong>    3. Stacking</strong></li>
 <li><strong>    4. Voting</strong></li>
-<h3>1. Bagging : </h3><p> Also reffered as bootstrap aggregating. In this ensemble approach, multiple instances of same base model are trained on different subsets of training data. This technique tries to capture diverse patterns from training data. For training each weak classifier,a subset of training data is randomly selected with replacement(also called as bootstrap sampling). Each of these subsets are unique and have same number of training samples as original training dataset. All these weak classifiers are trained independently.A common example is Random Forest, built by boostrapping multiple decision trees</p>
+<h3>1. Bagging : </h3><p> Also referred as bootstrap aggregating. In this ensemble approach, multiple instances of same base model are trained on different subsets of training data. This technique tries to capture diverse patterns from training data. For training each weak classifier,a subset of training data is randomly selected with replacement(also called as bootstrap sampling). Each of these subsets are unique and have same number of training samples as original training dataset. All these weak classifiers are trained independently.A common example is Random Forest, built by boostrapping multiple decision trees</p>
 
 
