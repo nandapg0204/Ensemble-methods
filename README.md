@@ -7,5 +7,6 @@
 <li><strong>    2. Boosting</strong></li>
 <li><strong>    3. Stacking</strong></li>
 <li><strong>    4. Voting</strong></li>
+<h3>1. Bagging : </h3>
 
 
