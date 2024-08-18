@@ -5,7 +5,7 @@
 <h3>Types of Ensemble methods are </h2>
 <li><strong>    1. Bagging</strong></li>
 <li><strong>    2. Boosting</strong></li>
-<p><strong>    3. Stacking</strong></p>
-<p><strong>    4. Voting</strong></p>
+<li><strong>    3. Stacking</strong></li>
+<li><strong>    4. Voting</strong></li>
 
 
