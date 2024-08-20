@@ -16,6 +16,9 @@
 <p> </p>
 <p><strong>1. Bagging : </strong>Also referred as bootstrap aggregating. In this ensemble approach, multiple instances of same base model are trained on different subsets of training data. This method aims to capture various patterns from the data by creating diverse training sets. Each subset is randomly selected with replacement, a process known as bootstrap sampling, and each subset has the same number of samples as the original dataset.  These models are trained independently on their respective subsets. A well-known example of this technique is Random Forest, which combines multiple decision trees to improve overall performance</p>
 <p> </p>
-<p><strong>2. Boosting : </strong> 
+<p><strong>2. Boosting : </strong>In this ensemble approach, models are trained in sequence where each subsequent model focuses on errors made by previous models. The intuition behind this approach is  to learn from the mistakes.  
 </p> 
-
+<p>    Popular boosting methods are </p>
+<li>        1. AdaBoosting </li>
+<li>        2., 
+      
