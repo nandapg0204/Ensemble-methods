@@ -20,7 +20,7 @@
 </p> 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular boosting methods are </p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1. AdaBoosting : </strong> Short form of Adaptive Boosting. In this approach, classifiers are trained sequentially, giving more weight to data points that are misclassified in previous rounds. </p>
-<p><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training process :</strong></p>
+<p><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training process :</strong></p>
 <table border="1" align="center"> <thead>
             <tr>
                 <th>Header 1</th>
