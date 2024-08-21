@@ -1,4 +1,6 @@
-
+<blockquote style="margin-left: 100px;">
+    This is a paragraph with a 20px left margin. It uses inline styling to achieve the indentation.
+</blockquote>
     
 <p> To get started with ensemble methods, clone the repository and follow the examples provided in the examples directory. Ensure you have the necessary dependencies installed, which can be done using pip install -r requirements.txt.</p>
 # Ensemble methods
