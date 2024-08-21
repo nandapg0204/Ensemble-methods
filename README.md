@@ -19,5 +19,5 @@
 <p><strong>2. Boosting : </strong>In this ensemble approach, models are trained in sequence where each subsequent model focuses on errors made by previous models. The intuition behind this approach is to learn from the mistakes.  
 </p> 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular boosting methods are </p>
-<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. AdaBoosting </li>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. AdaBoosting </p>
       
