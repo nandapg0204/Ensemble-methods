@@ -93,3 +93,5 @@
             </tr>
         </tbody>
 </table>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3. The second weak classifier is trained the weight adjusted data. Then evaluated and weights are adjusted accordingy. This process is repeatly until desired number of weak classifiers are trained. </p> 
+
