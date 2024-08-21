@@ -32,18 +32,23 @@
         </thead>
         <tbody>
             <tr>
-                <td>feature 1</td>
-                <td>target 1</td>
+                <td>feature A</td>
+                <td>target X</td>
                 <td>1 / N</td>
             </tr>
             <tr>
-                <td>feature 2</td>
-                <td>target 2</td>
+                <td>feature B</td>
+                <td>target Y</td>
                 <td>1 / N</td>
             </tr>
             <tr>
-                <td>feature 3</td>
-                <td>target 2</td>
+                <td>feature C</td>
+                <td>target X</td>
+                <td>1 / N</td>
+            </tr>
+            <tr>
+                <td>feature D</td>
+                <td>target Z</td>
                 <td>1 / N</td>
             </tr>
         </tbody>
