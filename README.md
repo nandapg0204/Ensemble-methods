@@ -52,7 +52,7 @@
             </tr>
         </tbody>
 </table>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. A weak classifier is trained on weighted training data. After training, we calculate the error by evaluating the same weak classifier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on same training data. We use this error to increase the weights of the misclassified examples and decrease the weights of the correctly classified ones.Let the α be the error, updated training data looks like the following. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. A weak classifier is trained on weighted training data. After training, we calculate the error by evaluating the same weak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; classifier on same training data. We use this error to increase the weights of the misclassified examples and decrease the weights of the correctly classified ones.Let the α be the error, updated training data looks like the following. </p>
 <table border="1" align="center"> <thead>
             <tr>
                 <th>Features</th>
