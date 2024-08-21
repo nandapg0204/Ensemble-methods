@@ -94,6 +94,7 @@
         </tbody>
 </table>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3. The second weak classifier is trained the weight adjusted data. Then evaluated and weights are adjusted accordingy. This &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process is repeatly until desired number of weak classifiers are trained. </p> 
-<li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AdaBoost improves accuracy by focusing on mistakes. The loss function is designed to pay more attention for the samples with higher weights.</li>
-<li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Sklearn version of AdaBoost has two versions boosting algorithms , SAMME(original version) and SAMME.R(updated version). SAMME.R tends to perform better compared to SAMME </li>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-→ AdaBoost improves accuracy by focusing on mistakes. The loss function is designed to pay more attention for the samples with higher weights.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-→ The Sklearn version of AdaBoost has two versions boosting algorithms , SAMME(original version) and SAMME.R(updated version). SAMME.R tends to perform better compared to SAMME </p>
+
 
