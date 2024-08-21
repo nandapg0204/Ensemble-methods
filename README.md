@@ -1,9 +1,10 @@
 
-   <style>
+      <style>
         .left-space-small {
-            margin-left: 10px; 
+            margin-left: 10px; /* Adjust this value as needed */
         }
     </style>
+    
 <p> To get started with ensemble methods, clone the repository and follow the examples provided in the examples directory. Ensure you have the necessary dependencies installed, which can be done using pip install -r requirements.txt.</p>
 
 
