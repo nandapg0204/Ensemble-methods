@@ -27,10 +27,14 @@
 <dl><dd> <dl><dd> <strong>1. Bagging : </strong>Also referred as bootstrap aggregating. In this ensemble approach, multiple instances of same base model are trained on different subsets of training data. This method aims to capture various patterns from the data by creating diverse training sets. Each subset is randomly selected with replacement, a process known as bootstrap sampling, and each subset has the same number of samples as the original dataset.  These models are trained independently on their respective subsets. A well-known example of this technique is Random Forest, which combines multiple decision trees to improve overall performance </dd></dl> </dd></dl>
 <p> </p>
 <dl><dd> <dl><dd> <strong>2. Boosting : </strong>In this ensemble approach, models are trained in sequence where each subsequent model focuses on errors made by previous models. The intuition behind this approach is to learn from the mistakes.  </dd></dl></dd></dl>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular boosting methods are </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1. AdaBoosting : </strong> Short form of Adaptive Boosting. In this approach, classifiers are trained sequentially, giving more weight to data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;points that are misclassified in previous rounds. </p>
-<p><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training process :</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1. At the start of training, every sample is given the same importance. If there are N samples, each one is assigned a  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;weight of 1 divided by N.The training data looks like the following </p>
+
+<dl><dd> <dl><dd>Popular boosting methods are</dd></dl></dd></dl>
+
+<dl><dd> <dl><dd> <dl><dd>  <strong>1. AdaBoosting : </strong> Short form of Adaptive Boosting. In this approach, classifiers are trained sequentially, giving more weight to data points that are misclassified in previous rounds.</dd></dl></dd></dl></dd></dl>
+
+<dl><dd><dl><dd><dl><dd><dl><dd><strong> Training process :</strong></dd></dl></dd></dl></dd></dl></dd></dl>
+
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 1. At the start of training, every sample is given the same importance. If there are N samples, each one is assigned a weight of 1 divided by N.The training data looks like the following </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <table border="1" align="center"> <thead>
             <tr>
                 <th>Features</th>
@@ -61,7 +65,8 @@
             </tr>
         </tbody>
 </table>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2. A weak classifier is trained on weighted training data. After training, we calculate the error by evaluating the same weak &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; classifier on same training data. We use this error to increase the weights of the misclassified examples and decrease the weights &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  of the correctly classified ones.Let the α be the error, updated training data looks like the following. </p>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>
+Step 2. A weak classifier is trained on weighted training data. After training, we calculate the error by evaluating the same weak  classifier on same training data. We use this error to increase the weights of the misclassified examples and decrease the weights of the correctly classified ones.Let the α be the error, updated training data looks like the following. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <table border="1" align="center"> <thead>
             <tr>
                 <th>Features</th>
@@ -102,8 +107,8 @@
             </tr>
         </tbody>
 </table>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3. The second weak classifier is trained the weight adjusted data. Then evaluated and weights are adjusted accordingy. This &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; process is repeatly until desired number of weak classifiers are trained. </p> 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-→ AdaBoost improves accuracy by focusing on mistakes. The loss function is designed to pay more attention for the samples with higher weights.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-→ The Sklearn version of AdaBoost has two versions boosting algorithms , SAMME(original version) and SAMME.R(updated version). SAMME.R tends to perform better compared to SAMME </p>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 3. The second weak classifier is trained the weight adjusted data. Then evaluated and weights are adjusted accordingy. This process is repeatly until desired number of weak classifiers are trained. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
+<dl><dd> <dl><dd> <dl><dd> -→ AdaBoost improves accuracy by focusing on mistakes. The loss function is designed to pay more attention for the samples with higher weights.</dd></dl></dd></dl></dd></dl>
+<dl><dd> <dl><dd> <dl><dd> -→ The Sklearn version of AdaBoost has two versions boosting algorithms , SAMME(original version) and SAMME.R(updated version). SAMME.R tends to perform better compared to SAMME </dd></dl></dd></dl></dd></dl>
 
 
