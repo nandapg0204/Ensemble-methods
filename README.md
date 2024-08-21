@@ -8,7 +8,7 @@
 </p>
 <p>Note : Models that are used to build a ensemble (strong classifier) are referred as base model or weak classifier.</p> 
 <h3>Types of Ensemble methods are </h2>
-<p><strong>    &nbsp;1. Bagging</strong></p>
+<p><strong>   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;1. Bagging</strong></p>
 <li><strong>    &nbsp;2. Boosting</strong></li>
 <li><strong>    &nbsp;3. Stacking</strong></li>
 <li><strong>    &nbsp;4. Voting</strong></li>
