@@ -1,7 +1,7 @@
 
     
 <p> To get started with ensemble methods, clone the repository and follow the examples provided in the examples directory. Ensure you have the necessary dependencies installed, which can be done using pip install -r requirements.txt.</p>
-
+# Ensemble methods
 
 <h1> Ensemble methods </h1>
 
