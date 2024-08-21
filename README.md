@@ -20,5 +20,4 @@
 </p> 
 <p>    Popular boosting methods are </p>
 <li>        1. AdaBoosting </li>
-<li>        2., 
       
