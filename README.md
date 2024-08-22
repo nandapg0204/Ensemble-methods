@@ -13,9 +13,11 @@
 <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Voting</strong></p>
 
 <p> </p>
+<p> </p>
 
 <dl><dd> <dl><dd> <strong>1. Bagging : </strong>Also referred as bootstrap aggregating. In this ensemble approach, multiple instances of same base model are trained on different subsets of training data. This method aims to capture various patterns from the data by creating diverse training sets. Each subset is randomly selected with replacement, a process known as bootstrap sampling, and each subset has the same number of samples as the original dataset.  These models are trained independently on their respective subsets. A well-known example of this technique is Random Forest, which combines multiple decision trees to improve overall performance </dd></dl> </dd></dl>
-<p> </p>
+<p> </p><p> </p>
+
 <dl><dd> <dl><dd> <strong>2. Boosting : </strong>In this ensemble approach, models are trained in sequence where each subsequent model focuses on errors made by previous models. The intuition behind this approach is to learn from the mistakes.  </dd></dl></dd></dl>
 
 <dl><dd> <dl><dd>Popular boosting methods are</dd></dl></dd></dl>
@@ -306,12 +308,12 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
  </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Accelerated Training: </strong>  Supports both CPU and GPU acceleration.
  </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
-
+<p> </p><p> </p>
 
  <dl><dd> <dl><dd> <strong>3. Stacking ensemble : </strong> Stacking is an ensemble learning method where multiple models are trained together in layers. Several base models are trained, and they can be different types. Then, a meta-model is trained using the predictions from these base models. The idea is that the meta-model learns which base models to trust in different situations. But stacking is less popularly used compared to other ensemble methods. 
  </dd></dl> </dd></dl>
 
 ![Flower](https://github.com/nandapg0204/Ensemble-methods/blob/main/images/Ensemble_Learning_Stacking.png?raw=true)
-
+<p> </p><p> </p>
  <dl><dd> <dl><dd> <strong>4. Voting ensemble : </strong> Voting is a straightforward ensemble learning technique that combines the predictions of multiple models to make a final decision.  
  </dd></dl> </dd></dl>
