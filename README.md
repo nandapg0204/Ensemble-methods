@@ -106,7 +106,6 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
 <dl><dd><dl><dd><dl><dd><dl><dd><strong> Training process :</strong></dd></dl></dd></dl></dd></dl></dd></dl>
 
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 1. Initally a weak classifier is trained on entire training data and then evaluated to calcualte residuals</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
-<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 2. The next model is trained to predict these residuals. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <div align="center">
 <table border="1" align="center">
     <caption><strong>For Regression (House Price Prediction):</strong></caption>
@@ -190,6 +189,75 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
             <td>311</td>
             <td>0</td>
             <td>0.70</td>
+            <td>-0.70</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 2. The next model is trained to predict these residuals. The training data for sub sequent model looks like the following.</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
+<div align="center">
+<table border="1" align="center">
+    <caption><strong>For Regression (House Price Prediction):</strong></caption>
+    <thead>
+        <tr>
+            <th>Median Income</th>
+            <th>Number of Bedrooms</th>
+            <th>Residual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$60,000</td>
+            <td>3</td>
+            <td>$10,000</td>
+        </tr>
+        <tr>
+            <td>$75,000</td>
+            <td>4</td>
+            <td>-$10,000</td>
+        </tr>
+        <tr>
+            <td>$50,000</td>
+            <td>2</td>
+            <td>-$5,000</td>
+        </tr>
+        <tr>
+            <td>$80,000</td>
+            <td>5</td>
+            <td>$10,000</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div align = "center">
+<table border="1" align="center">
+    <caption > <strong>Classification (Binary classification with 0.5 threshold ):</strong> </caption>
+    <thead>
+        <tr>
+            <th>Feature 1</th>
+            <th>Feature 2</th>
+            <th>Residual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>321</td>
+            <td>23</td>
+            <td>0.25</td>
+        </tr>
+        <tr>
+            <td>512</td>
+            <td>21</td>
+            <td>-0.65</td>
+        </tr>
+        <tr>
+            <td>599</td>
+            <td>312</td>
+            <td>0.15</td>
+        </tr>
+        <tr>
+            <td>621</td>
+            <td>311</td>
             <td>-0.70</td>
         </tr>
     </tbody>
