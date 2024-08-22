@@ -268,42 +268,42 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
 <dl><dd><dl><dd><dl><dd><dl><dd><strong> Advanced Gradient Boosting Techniques :</strong></dd></dl></dd></dl></dd></dl></dd></dl>
 
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong>XGBoost (Extreme Gradient Boosting):</strong> This is an optimized version of GBM with additional features for better performance and efficiency
-</dd></dl></dd></dl></dd></dl></dd></dl>
+</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Features :</strong>
-</dd></dl></dd></dl></dd></dl></dd></dl>
+</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Regularization: </strong>Adds L1 and L2 regularization to reduce overfitting.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Tree Pruning: </strong> Uses depth-first search for tree growth and pruning.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Missing Values Handling: </strong>Supports both CPU and GPU acceleration.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Parallel Processing: </strong>Adds L1 and L2 regularization to reduce overfitting.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
   <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Histogram-Based Splitting: </strong> Uses bins to split data, improving efficiency.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 
-<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> LightGBM (Light Gradient Boosting Machine):</strong>  Designed for faster training and lower memory usage with large datasets.</dd></dl></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> LightGBM (Light Gradient Boosting Machine):</strong>  Designed for faster training and lower memory usage with large datasets.</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Features :</strong>
-</dd></dl></dd></dl></dd></dl></dd></dl>
+</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Histogram-Based Algorithms: </strong> Efficiently handles large datasets by using histogram-based approaches.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Speed and Efficiency: </strong>  Optimized for faster training and prediction.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 
-<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> CatBoost :</strong>  Handles categorical features automatically and is robust to various data distributions.</dd></dl></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> CatBoost :</strong>  Handles categorical features automatically and is robust to various data distributions.</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Features :</strong>
-</dd></dl></dd></dl></dd></dl></dd></dl>
+</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Categorical Feature Handling: </strong> Directly processes categorical features.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Regularization: </strong>   Uses advanced regularization techniques to reduce overfitting.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  
  
-<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Lightning Boost :</strong>  An extension of XGBoost, focusing on faster training and scalability. </dd></dl></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Lightning Boost :</strong>  An extension of XGBoost, focusing on faster training and scalability. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Features :</strong>
-</dd></dl></dd></dl></dd></dl></dd></dl>
+</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong>  Improved Efficiency: </strong> Better optimization for large datasets compared to XGBoost.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Accelerated Training: </strong>  Supports both CPU and GPU acceleration.
- </dd></dl></dd></dl></dd></dl></dd></dl>
+ </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  
