@@ -312,3 +312,6 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
  </dd></dl> </dd></dl>
 
 ![Flower](https://github.com/nandapg0204/Ensemble-methods/blob/main/images/Ensemble_Learning_Stacking.png?raw=true)
+
+ <dl><dd> <dl><dd> <strong>4. Voting ensemble : </strong> Voting is a straightforward ensemble learning technique that combines the predictions of multiple models to make a final decision.  
+ </dd></dl> </dd></dl>
