@@ -1,13 +1,3 @@
-<dl>
-  <dd>
-    <dl>
-      <dd>
-        Multiple levels seems to be possible?
-      </dd>
-    </dl>
-  </dd>
-</dl>
-
     
 <p> To get started with ensemble methods, clone the repository and follow the examples provided in the examples directory. Ensure you have the necessary dependencies installed, which can be done using pip install -r requirements.txt.</p>
 
@@ -111,4 +101,95 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
 <dl><dd> <dl><dd> <dl><dd> -→ AdaBoost improves accuracy by focusing on mistakes. The loss function is designed to pay more attention for the samples with higher weights.</dd></dl></dd></dl></dd></dl>
 <dl><dd> <dl><dd> <dl><dd> -→ The Sklearn version of AdaBoost has two versions boosting algorithms , SAMME(original version) and SAMME.R(updated version). SAMME.R tends to perform better compared to SAMME </dd></dl></dd></dl></dd></dl>
 
+<dl><dd> <dl><dd> <dl><dd>  <strong>1. Gradient Boosting Machines(GBM) : </strong> In GBM, models are trained in sequence, with each subsequent model focuses on residuals to improve ensemble accuracy.
+</dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><dl><dd><dl><dd><strong> Training process :</strong></dd></dl></dd></dl></dd></dl></dd></dl>
+
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 1. Initally a weak classifier is trained on entire training data and then evaluated to calcualte residuals</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 2. The next model is trained to predict these residuals. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
+
+<table border="1" align="center">
+    <caption>For Regression (House Price Prediction):</caption>
+    <thead>
+        <tr>
+            <th>Median Income</th>
+            <th>Number of Bedrooms</th>
+            <th>Target Price</th>
+            <th>Predicted Target Price</th>
+            <th>Residual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$60,000</td>
+            <td>3</td>
+            <td>$350,000</td>
+            <td>$340,000</td>
+            <td>$10,000</td>
+        </tr>
+        <tr>
+            <td>$75,000</td>
+            <td>4</td>
+            <td>$450,000</td>
+            <td>$460,000</td>
+            <td>-$10,000</td>
+        </tr>
+        <tr>
+            <td>$50,000</td>
+            <td>2</td>
+            <td>$250,000</td>
+            <td>$255,000</td>
+            <td>-$5,000</td>
+        </tr>
+        <tr>
+            <td>$80,000</td>
+            <td>5</td>
+            <td>$500,000</td>
+            <td>$490,000</td>
+            <td>$10,000</td>
+        </tr>
+    </tbody>
+</table>
+<table border="1" align="center">
+    <caption>Classification (Binary classification 0.5 threshold ):</caption>
+    <thead>
+        <tr>
+            <th>Feature 1</th>
+            <th>Feature 2</th>
+            <th>True Label</th>
+            <th>Predicted probability</th>
+            <th>Residual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>321</td>
+            <td>23</td>
+            <td>1</td>
+            <td>0.75</td>
+            <td>-0.25</td>
+        </tr>
+        <tr>
+            <td>512</td>
+            <td>21</td>
+            <td>0</td>
+            <td>0.65</td>
+            <td>-0.65</td>
+        </tr>
+        <tr>
+            <td>599</td>
+            <td>312</td>
+            <td>1</td>
+            <td>0.85</td>
+            <td>0.15</td>
+        </tr>
+        <tr>
+            <td>621</td>
+            <td>311</td>
+            <td>0</td>
+            <td>0.70</td>
+            <td>-0.70</td>
+        </tr>
+    </tbody>
+</table>
 
