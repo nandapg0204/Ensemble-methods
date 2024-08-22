@@ -109,7 +109,7 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>Step 2. The next model is trained to predict these residuals. </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <div align="center">
 <table border="1" align="center">
-    <caption>For Regression (House Price Prediction):</caption>
+    <caption><strong>For Regression (House Price Prediction):</strong></caption>
     <thead>
         <tr>
             <th>Median Income</th>
@@ -151,8 +151,9 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
     </tbody>
 </table>
 </div>
+<div align = "center">
 <table border="1" align="center">
-    <caption  align="center" >Classification (Binary classification 0.5 threshold ):</caption>
+    <caption > <strong>Classification (Binary classification with 0.5 threshold ):</strong> </caption>
     <thead>
         <tr>
             <th>Feature 1</th>
@@ -193,4 +194,4 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
         </tr>
     </tbody>
 </table>
-
+</div>
