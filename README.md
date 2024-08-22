@@ -306,4 +306,7 @@ Step 2. A weak classifier is trained on weighted training data. After training, 
  </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
  <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><strong> Accelerated Training: </strong>  Supports both CPU and GPU acceleration.
  </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
- 
+
+
+ <dl><dd> <dl><dd> <strong>3. Stacking ensemble : </strong> Stacking is an ensemble learning method where multiple models are trained together in layers. Several base models are trained, and they can be different types. Then, a meta-model is trained using the predictions from these base models. The idea is that the meta-model learns which base models to trust in different situations. But stacking is less popularly used compared to other ensemble methods. 
+ </dd></dl> </dd></dl>
